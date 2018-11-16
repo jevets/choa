@@ -1,0 +1,67 @@
+[
+  {
+    "key": "bessecker-home",
+    "title": "Bessecker Home",
+    "blurb": "Cozy custom home in a beautiful mountain cove",
+    "description": "Dream retirement home in beautiful Garren Creek Community",
+    "images": [
+      "Grt room from island 4-4-09.jpg",
+      "Grt room with furn from foyer 4-1-09.jpg",
+      "Kitchen and island chairs from Grt room 4-4-09.jpg",
+      "P6090282.jpg",
+      "P6090285.jpg",
+      "P6090286.jpg"
+    ]
+  },
+  {
+    "key": "caplan-home",
+    "title": "Caplan Home",
+    "blurb": "Mountaintop two-story log Home on finished basement",
+    "description": "Gorgeous Honest Abe log home getaway in Catawba Falls Preserve complete with private hot tub deck",
+    "images": [
+      "DSC00323.JPG",
+      "DSC00324.JPG",
+      "DSC00325.JPG",
+      "DSC00333.JPG",
+      "DSC00334.JPG",
+      "DSC00335.JPG",
+      "DSC00338.JPG",
+      "DSC00343.JPG",
+      "DSC00350.JPG"
+    ]
+  },
+  {
+    "key": "cole-home",
+    "title": "Cole Home",
+    "blurb": "One-story conventional home with rustic accents in Leicester",
+    "description": "A culmination of years of planning results in this “top of the world” mountain view with a rustic feel.",
+    "images": [
+      "DSC00176.JPG",
+      "DSC00178.JPG",
+      "DSC00180.JPG",
+      "DSC00191.JPG",
+      "DSC00193.JPG",
+      "DSC00194.JPG",
+      "DSC00195.JPG"
+    ]
+  },
+  {
+    "key": "mcconnell-home",
+    "title": "McConnell Home",
+    "blurb": "Custom two-story Honest Abe log home on an unfinished basement",
+    "description": "Stunning custom log home with plenty of outside and inside living area in Grand View Peaks community in Nebo, NC",
+    "images": [
+      "final 1.jpg",
+      "final 2.jpg",
+      "final 3.jpg",
+      "final 4.jpg",
+      "final 5.jpg",
+      "final 6.jpg",
+      "final 7.jpg",
+      "final 8.jpg",
+      "final 9.jpg",
+      "yard 1.JPG",
+      "yard 5.JPG"
+    ]
+  }
+]
