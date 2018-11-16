@@ -5,11 +5,15 @@
         h2.display-4.mb-0 Our Work
         each project in projects
           .my-5.py-5
+            .my-2.font-weight-light.font-italic= project.title
             h3.font-weight-medium= project.blurb
             p.lead= project.description
-            .row.my-4
+            .row.my-5
               each image in project.images
                 - const path = `/img/projects/${project.key}`
                 .col-sm-6.col-lg-4.mb-4
                   a(href=`${path}/${image}`)
-                    img.img-fluid(src=`${path}/${image}` alt=project.title)
+                    img.img-fluid.shadow.border(
+                      src=`${path}/${image}`
+                      alt=project.title
+                    )
