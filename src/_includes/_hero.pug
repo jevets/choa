@@ -1,7 +1,13 @@
-.jumbotron.jumbotron-fluid.bg-white
-  .container.text-center.my-5
+.jumbotron.jumbotron-fluid.bg-light.mb-0(
+  style=`
+    background-image: url(/img/hero-bg--light.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  `
+)
+  .container.text-center.py-5
     p
-      img.img-fluid(
+      img.img-fluid.border.shadow(
         alt=company.name
         src="/img/logo.jpg"
       )
