@@ -1,18 +1,20 @@
-.jumbotron.jumbotron-fluid.bg-light.mb-0(
+.jumbotron.jumbotron-fluid.bg-light.mb-0.border-bottom.py-5(
   style=`
-    background-image: url(/img/hero-bg--light.jpg);
+    background-image: url(/img/hero-bg--home1.jpg);
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
   `
 )
   .container.text-center.py-5
-    p
-      a(href="/")
-        img.img-fluid.border.shadow(
-          alt=company.name
-          src="/img/logo.jpg"
-        )
-    .mx-auto.w-75.my-5
-      p.lead Whether you are interested in a brand new home, or remodeling or adding onto your existing home, Custom Homes of Asheville provides the services you need, the quality you desire, and the honesty and integrity you deserve.
-      p.my-5
-        a.btn.btn-primary.btn-lg(href="#contact") Contact Us
+    .w-75.mx-auto.border.shadow.bg-white.p-2.p-md-5
+      p
+        a(href="/")
+          img.img-fluid(
+            alt=company.name
+            src="/img/logo.jpg"
+          )
+      .my-5
+        p.lead Whether you are interested in a brand new home, or remodeling or adding onto your existing home, Custom Homes of Asheville provides the services you need, the quality you desire, and the honesty and integrity you deserve.
+        p.my-5
+          a.btn.btn-primary.btn-lg(href="#contact") Contact Us

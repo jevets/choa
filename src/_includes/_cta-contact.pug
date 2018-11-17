@@ -1,11 +1,13 @@
-.py-4.bg-dark.text-light
+.py-4.bg-dark.text-light(style=`
+  background-image: url(/img/bg--dark-logs.jpg);
+`)
   .container.py-4
     .w-sm-50.mx-auto.text-center
-      h2.display-3.my-5 Contact Us
+      h2.display-4.my-5.mb-0 Contact Us
       .row.my-5
-        .col-md-4.offset-md-2
+        .col-md-4.offset-md-2.mb-4
           h2.lead Call
-          h4= company.phone
-        .col-md-4
+          a.h3.text-primary(href=`tel:${company.phone}`)= company.phone
+        .col-md-4.mb-4
           h2.lead Email
-          h4= company.email
+          a.h3.text-primary(href=`mailto:${company.email}`)= company.email
