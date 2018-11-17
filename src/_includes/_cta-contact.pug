@@ -1,10 +1,10 @@
-.py-4.bg-dark.text-light(style=`
-  background-image: url(/img/bg--dark-logs.jpg);
-`)
+.py-4.bg-dark.text-light.bg-dark-texture
   .container.py-4
-    .w-sm-50.mx-auto.text-center
-      h2.display-4.my-5.mb-0 Contact Us
-      .row.my-5
+    .w-sm-50.mx-auto.text-center.py-5
+      a.btn.btn-primary.btn-lg(href="#contact")
+        | Get in Touch &raquo;
+      //- h2.display-4.my-5.mb-0 Contact Us
+      //- .row.my-5
         .col-md-4.offset-md-2.mb-4
           h2.lead Call
           a.h3.text-primary(href=`tel:${company.phone}`)= company.phone

@@ -1,7 +1,12 @@
 extends /layout
 
-block body
-  include /_hero
-  include /_work
+block main
+  section#hero
+    include /_hero
+  section#work
+    include /_work
   include /_cta-contact
-  include /_about
+  section#about
+    include /_about
+  section#contact
+    include /_contact

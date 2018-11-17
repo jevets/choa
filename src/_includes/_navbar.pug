@@ -1,0 +1,13 @@
+nav#navbar.navbar.navbar-light.bg-light.navbar-expand-md
+  a.navbar-brand(href="/")= navbar.brand
+  button.navbar-toggler(
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+  )
+    span.navbar-toggler-icon
+  #navbarSupportedContent.collapse.navbar-collapse
+    ul.navbar-nav.ml-auto
+      each item in navbar.items
+        li.nav-item
+          a.nav-link(href=item.href)= item.label

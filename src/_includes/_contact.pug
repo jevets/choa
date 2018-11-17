@@ -1,0 +1,10 @@
+.py-5.bg-dark.text-light.bg-dark-texture
+  .container.my-5.py-5
+    h2.display-4.my-5.text-center Contact Us
+    .row.py-5.my-5.text-center
+      .col-md-4.offset-md-2.mb-4
+        h2.lead Call
+        a.h3.text-primary(href=`tel:${company.phone}`)= company.phone
+      .col-md-4.mb-4
+        h2.lead Email
+        a.h3.text-primary(href=`mailto:${company.email}`)= company.email

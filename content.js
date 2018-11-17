@@ -28,7 +28,7 @@ function full (photo) {
 }
 
 async function fetchAllProjects () {
-  return await sanityClient.fetch('*[_type == "project"]')
+  return await sanityClient.fetch('*[_type == "project"] | order(title)')
 }
 
 async function saveImage (url, localPath) {
