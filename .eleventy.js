@@ -5,6 +5,7 @@ module.exports = config => {
   }
 
   config.addPassthroughCopy('src/img')
+  config.addPassthroughCopy('src/projects')
 
   return config
 }

@@ -1,9 +1,13 @@
 {
   "scripts": {
+    "fetch-projects": "node ./content.js",
     "dev": "DEBUG=Eleventy* eleventy --serve",
     "build": "eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.5.4"
+    "@11ty/eleventy": "^0.5.4",
+    "@sanity/client": "^0.136.0",
+    "@sanity/image-url": "^0.136.0",
+    "https": "^1.0.0"
   }
 }
