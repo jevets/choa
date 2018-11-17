@@ -2,7 +2,7 @@
   "scripts": {
     "fetch-projects": "node ./content.js",
     "dev": "DEBUG=Eleventy* eleventy --serve",
-    "build": "eleventy"
+    "build": "yarn fetch-projects && eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.5.4",
