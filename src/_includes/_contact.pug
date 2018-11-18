@@ -3,8 +3,21 @@
     h2.display-4.my-5.text-center Contact Us
     .row.py-5.my-5.text-center
       .col-md-4.offset-md-2.mb-4
-        h2.lead Call
-        a.h3.text-primary(href=`tel:${company.phone}`)= company.phone
+        h2.lead
+          i.fa.fa-phone-square.mr-2
+          | Call
+        a.h3.text-white(href=`tel:${company.phone}`)= company.phone
       .col-md-4.mb-4
-        h2.lead Email
-        a.h3.text-primary(href=`mailto:${company.email}`)= company.email
+        h2.lead
+          i.fa.fa-envelope.mr-2
+          | Email
+        a.h3.text-white(href=`mailto:${company.email}`)= company.email
+  .container.mt-5.py-5
+    .text-center
+      p
+        small &copy; #{ site.copyrightDate } #{ company.name }
+      p
+        a.text-white.h4(href=company.socials.facebook)
+          i.fa.fa-facebook-official
+      p.mt-5
+        small Custom Homes of Asheville, Inc. is licensed under NC license #70690 with a Building classification
